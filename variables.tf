@@ -13,11 +13,6 @@ variable "storage_account_name" {
   description = "Storage account name"
 }
 
-variable "environment" {
-  type        = string
-  description = "The environment either Production or QA"
-}
-
 variable "account_tier" {
   type        = string
   description = "Account tier can be Standard or Premium"
