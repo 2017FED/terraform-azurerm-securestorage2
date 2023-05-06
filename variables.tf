@@ -15,12 +15,12 @@ variable "storage_account_name" {
 
 variable "account_tier" {
   type        = string
-  description = "Account tier can be Standard or Premium"
   default     = "Standard"
+  description = "Account tier can be Standard or Premium"
 }
 
 variable "account_replication_type" {
   type        = string
-  description = "Can be LRS or GRS or RAGRS or ZRS or GZRS or RAGRS"
   default     = "GRS"
+  description = "Can be LRS or GRS or RAGRS or ZRS or GZRS or RAGRS"
 }
